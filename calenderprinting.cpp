@@ -49,9 +49,7 @@ private:
 				gotoxy(x, y);
 			}
 
-
 		}
-
 
 	}
 
@@ -129,7 +127,7 @@ public:
 };
 
 char const* Calendar::MONTH_NAME[13] =
-{ "",
+{ 	"",
 	"January",
 	"Feburary",
 	"March",
